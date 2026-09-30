@@ -31,11 +31,16 @@ The project uses the **Brazilian Olist e-commerce dataset**, containing approxim
 
 ## Key Findings
 
-* Average delivery time is approximately **12.5 days**.
-* Approximately **91.9% of delivered orders were delivered on time**.
-* Delivery performance varied considerably across sellers.
-* Lower review scores were associated with longer delivery times.
-* Delivery performance deteriorated noticeably during parts of late 2017 and early 2018.
+The dataset contains 99,441 orders and approximately 13.59M in item revenue.
+Average delivery time is approximately 12.5 days.
+Approximately 91.9% of delivered orders were delivered on time.
+Delivery performance varies significantly across sellers, with some high-volume sellers showing longer average delivery times.
+Orders with lower review scores are associated with longer delivery times.
+Delivery performance declined during parts of late 2017 and early 2018, with longer delivery times and lower on-time delivery rates observed during this period.
+Business Insights
+Sellers with higher delivery times can be investigated as potential operational bottlenecks.
+Delivery performance should be monitored together with customer review scores because longer delivery times are associated with lower review scores.
+Monthly monitoring of delivery time and on-time delivery can help identify periods requiring further operational investigation.
 
 ## Project Structure
 
@@ -51,6 +56,18 @@ Olist-Operational-Performance-Analysis/
 │
 └── README.md
 ```
+## Buisness Recommendations
+Based on the analysis, the following actions could be considered:
+
+Investigate high-delay sellers
+Review high-volume sellers with longer delivery times to identify potential fulfillment or logistics-related issues.
+Monitor delivery and customer satisfaction together
+Since longer delivery times are associated with lower review scores, these metrics should be monitored together.
+Establish monthly operational monitoring
+Track average delivery time and on-time delivery rate regularly to identify periods of declining performance.
+Prioritize operational bottlenecks
+Evaluate seller volume together with delivery performance to focus improvement efforts on bottlenecks with meaningful operational impact.
+
 
 ## Note
 
