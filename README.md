@@ -28,7 +28,9 @@ The project uses the **Brazilian Olist e-commerce dataset**, containing approxim
 * Seller delivery bottlenecks
 * Review score vs. delivery time
 * Monthly operational trends
+## Dashboard
 
+![Olist Operational Performance Dashboard](dashboard.png)
 ## Key Findings
 
 The dataset contains 99,441 orders and approximately 13.59M in item revenue.
